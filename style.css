@@ -17,16 +17,20 @@
 }
 
 body * {
+  
   box-sizing: border-box;
+
 }
 
 h1 {
+  
   font-weight: 800;
   font-size: 60px;
   font-family: Poppins;
 }
 
 h2 {
+  
   font-weight: 800;
   font-size: 36px;
   font-family: Poppins;
@@ -34,54 +38,229 @@ h2 {
 }
 
 p {
-font-weight: 400;
-font-size: 16px;
-font-family: Poppins;
+  
+  font-weight: 400;
+  font-size: 16px;
+  font-family: Poppins;
 
 }
 
 header {
+  
   display: flex;
   justify-content: space-between;
+
 }
 
 .logo {
+  
   font-weight: 800;
   font-size: 36px;
   color: var(--red);
   font-family: Poppins;
-  
-  
-
-}
+  }
 
 main {
+  
   display: flex;
   
 }
 
 .cards {
-display: flex;
-flex-wrap: wrap;
-align-content: flex-start;
-flex-grow: 1;
-gap: 20px;
+
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  flex-grow: 1;
+  gap: 20px;
 }
 
 .card {
+  
+  position: relative;
   width: 347px;
   height: 332px;
   border-radius: 16px;
-  top: 125px;
-  left: 60px;
   background-color: var(--bg-gray);
+  box-shadow:
+  12.5px 12.5px 10px rgba(0, 0, 0, 0.028),
+  100px 100px 80px rgba(0, 0, 0, 0.07);
+  padding: 10px;
+}
+
+.redbutton {
   
+  width: 42px;
+  height: 41px;
+  border-radius: 0px 0px 16px 0px;
+  background-color: var(--red);
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  padding-top: 10px;
+
 }
 
 .container {
- display: flex;
+  
+  display: flex;
+
 }
 
 .infobox {
-  background-color: #d4eda1;
+  
+  flex-wrap: wrap;
+  align-content: flex-start;
+  flex-grow: 1;
+  gap: 20px;
+  position: relative;
+
+}
+
+.buttonfont {
+  font-size: 12px;
+  
+}
+
+.buttons {
+  display: flex;
+  flex-direction:row;
+  gap: 20px;
+  margin: 20px;
+
+}
+
+.office {
+
+  font-family: poppins;  
+  text-align: center;
+  width: 61px;
+  height: 23px;
+  padding: 4px, 13px, 4px, 13px;
+  border-radius: 4px;
+  gap: 20px;
+  background-color: var(--blue-solid);
+
+}
+
+.gothenburg {
+
+  font-family: poppins;  
+  text-align: center;
+  width: 94px;
+  height: 23px;
+  border-radius: 4px;
+  gap: 20px;
+  background-color: var(--yellow);
+  
+  
+}
+
+.animals {
+
+  font-family: poppins;  
+  text-align: center;
+  width: 71px;
+  height: 23px;
+  padding: 4px, 13px, 4px, 13px;
+  border-radius: 4px;
+  gap: 40px;
+  background-color: var(--green-solid);
+
+
+}
+
+.money {
+
+  font-family: poppins;  
+  text-align: center;
+  width: 65px;
+  height: 23px;
+  padding: 4px, 13px, 4px, 13px;
+  border-radius: 4px;
+  gap: 40px;
+  background-color: var(--pink);
+
+
+}
+
+.jobs {
+
+  font-family: poppins;  
+  text-align: center;
+  width: 54px;
+  height: 23px;
+  padding: 4px, 13px, 4px, 13px;
+  border-radius: 4px;
+  gap: 40px;
+  background-color: var(--green-solid);
+
+}
+
+.bigbuttons {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  margin: 20px;
+
+
+}
+
+.buttonr {
+
+  position: relative;
+  font-family: poppins;  
+  text-align: center;
+  padding-top: 10px;
+  width: 195px;
+  height: 50px;
+  border-radius: 16px;
+  background-color: var(--blue);
+
+
+}
+
+.buttoninbuttonr {
+
+  width: 47px;
+  height: 50px;
+  border-radius: 16px;
+  background-color: var(--blue-solid);
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: center;
+  padding-top: 15px;
+  
+}
+
+.buttonl {
+
+  position: relative;
+  font-family: poppins;
+  text-align: center;
+  padding-top: 10px;
+  width: 195px;
+  height: 50px;
+  border-radius: 16px;
+  background-color: var(--green);
+  
+  
+}
+
+.buttoninbuttonl {
+
+  width: 47px;
+  height: 50px;
+  border-radius: 16px;
+  background-color: var(--green-solid);
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: center;
+  padding-top: 15px;
+
 }
