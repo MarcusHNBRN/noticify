@@ -1,0 +1,87 @@
+:root {
+  --red: #fa6262;
+  --blue: #cae9f2;
+  --bg-gray: #fbfbfb;
+  --yellow: #fffacc;
+  --green: #e2efc7;
+  --pink: #efc7c7;
+  --font-color: #000;
+  --blue-solid: #a1dbed;
+  --green-solid: #d4eda1;
+}
+
+
+@font-face {
+  font-family: 'Poppins', sans-serif;
+
+}
+
+body * {
+  box-sizing: border-box;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 60px;
+  font-family: Poppins;
+}
+
+h2 {
+  font-weight: 800;
+  font-size: 36px;
+  font-family: Poppins;
+
+}
+
+p {
+font-weight: 400;
+font-size: 16px;
+font-family: Poppins;
+
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 36px;
+  color: var(--red);
+  font-family: Poppins;
+  
+  
+
+}
+
+main {
+  display: flex;
+  
+}
+
+.cards {
+display: flex;
+flex-wrap: wrap;
+align-content: flex-start;
+flex-grow: 1;
+gap: 20px;
+}
+
+.card {
+  width: 347px;
+  height: 332px;
+  border-radius: 16px;
+  top: 125px;
+  left: 60px;
+  background-color: var(--bg-gray);
+  
+}
+
+.container {
+ display: flex;
+}
+
+.infobox {
+  background-color: #d4eda1;
+}
